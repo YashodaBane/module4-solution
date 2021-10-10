@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		const name = ['Jay', 'Yashraj',  'Rajveer', 'janavi', 'Mahima', 'Joya'];
+		
+		for(var i=0; i<name.length; i++)
+		{
+			var firstletter = name[i].charAt(0)
+
+			if(firstletter == 'j' || firstletter == 'J')
+			{
+				console.log('Goodbye ' +name[i].charAt(0).toUpperCase() + name[i].slice(1));
+			}
+			else
+			{
+				console.log('Hello ' +name[i]);
+			}
+		}
+
+	</script>
+
+</body>
+</html>
